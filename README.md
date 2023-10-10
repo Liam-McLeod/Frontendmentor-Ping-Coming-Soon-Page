@@ -17,8 +17,8 @@ This is a solution to the [Ping coming soon page challenge on Frontend Mentor](h
 
 ### Links
 
--  [Solution URL](https://www.frontendmentor.io/solutions/base-apparel-coming-soon-UPu5dyrv9k)
--  [Live Site URL](https://liam-mcleod.github.io/FrontendMentor-Base-Apparel/)
+-  [Solution URL](https://www.frontendmentor.io/solutions/ping-coming-soon-page-ojpu4jxGJ_)
+-  [Live Site URL](https://liam-mcleod.github.io/Frontendmentor-Ping-Coming-Soon-Page/)
 
 ## Author
 - Frontend Mentor - [@Liam-McLeod](https://www.frontendmentor.io/profile/Liam-McLeod)
