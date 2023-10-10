@@ -1,0 +1,166 @@
+:root {
+    --Blue: hsl(223, 87%, 63%);
+
+    --Pale-Blue: hsl(223, 100%, 88%);
+    --Light-Red: hsl(354, 100%, 66%);
+
+    --Gray: hsl(0, 0%, 59%);
+    --Very-Dark-Blue: hsl(209, 33%, 12%);
+
+    --default-font-family: 'Libre Franklin', sans-serif;
+
+    --fw-light: 300;
+    --fw-semibold: 600;
+    --fw-bold: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  font: inherit;
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+body {
+    font-size: 20px;
+    font-family: var(--default-font-family);
+    height: 100vh;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.main-container {
+    margin: 4rem 1.5rem;
+    display: grid;
+    gap: 4rem;
+}
+
+.intro {
+    display: grid;
+    place-items: center;
+    gap: 1rem;
+}
+
+.logo {
+    width: 3.5rem;
+}
+
+.title {
+    color: var(--Gray);
+    margin-top: 1rem;
+    font-size: 1.5rem;
+}
+
+.title span {
+    color: var(--Very-Dark-Blue);
+    font-weight: var(--fw-bold);
+}
+
+.desc {
+    font-size: 0.8rem;
+}
+
+form {
+    display: grid;
+    gap: 0.5rem;
+    width: 90%;
+    margin-top: 1rem;
+}
+
+form input {
+    border: 1px solid var(--Pale-Blue);
+    border-radius: 50rem;
+    padding: 0.7rem 0.7rem 0.7rem 2rem;
+    font-size: 0.9rem;
+}
+
+::placeholder {
+    color: var(--Pale-Blue);
+}
+
+
+form button {
+    background-color: var(--Blue);
+    color: white;
+    border: none;
+    border-radius: 50rem;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+    font-weight: var(--fw-semibold);
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    gap: 2rem;
+}
+
+.social-icons {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.social-icons i {
+    color: var(--Blue);
+    border: 1px solid var(--Pale-Blue);
+    border-radius: 100%;
+    padding: 0.5rem;
+    width: 37.6px;
+}
+
+.copyright {
+    font-size: 0.8rem;
+    color: var(--Gray);
+}
+
+/* Hidden until error */
+
+.error-message {
+    color: red;
+    margin-right: auto;
+    margin-left: 2rem;
+    font-size: 0.7rem;
+    font-style: italic;
+}
+
+@media (min-width: 600px) {
+    
+
+    .logo {
+        width: 5rem;
+    }
+
+    .title {
+        font-size: 3rem;
+    }
+
+    .desc {
+        font-size: 1.3rem;
+    }
+
+    form {
+        grid-template-columns: 26rem auto;
+        width: 100%;
+        gap: 1rem;
+    }
+
+    form input {
+        padding: 1.1rem 1.1rem 1.1rem 2rem;
+    }
+
+    .main-img {
+        width: 40rem;
+    }
+
+}
